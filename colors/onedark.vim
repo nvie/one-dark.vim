@@ -252,7 +252,7 @@ if !exists("g:onedark_background_color")
   let g:onedark_background_color = "292c33"
 end
 
-call s:X("Normal","95a2bb",g:onedark_background_color,"","5f6b85","")
+call s:X("Normal","abb2bf",g:onedark_background_color,"","31343F","")
 set background=dark
 
 if !exists("g:onedark_use_lowcolor_black") || g:onedark_use_lowcolor_black
@@ -276,12 +276,12 @@ if version >= 700
   call s:X("PmenuSel","101010","eeeeee","",s:termBlack,"White")
 endif
 
-call s:X("Visual","","404040","","",s:termBlack)
-call s:X("Cursor",g:onedark_background_color,"b0d0f0","","","")
+call s:X("Visual","","484b5b","","",s:termBlack)
+call s:X("Cursor",g:onedark_background_color,"8599FF","","","")
 
 call s:X("LineNr","605958",g:onedark_background_color,"none",s:termBlack,"")
 call s:X("CursorLineNr","ccc5c4","","none","White","")
-call s:X("Comment","5f6b85","","italic","Grey","")
+call s:X("Comment","374149","","","Grey","")
 call s:X("Todo","c7c7c7","","bold","White",s:termBlack)
 
 call s:X("StatusLine","95a2bb","22252b","italic","","White")
@@ -297,20 +297,20 @@ call s:X("ColorColumn","","5f6b85","","",s:termBlack)
 call s:X("Title","70b950","","bold","Green","")
 
 call s:X("Constant","d9bd86","","","Red","")
-call s:X("Special","799d6a","","","Green","")
+call s:X("Special","ff0000","","","Green","")
 call s:X("Delimiter","668799","","","Grey","")
 call s:X("Define", "b27ecd", "", "", "", "")
 
-call s:X("String","88b379","","","Green","")
-call s:X("StringDelimiter","88b379","","","DarkGreen","")
+call s:X("String","89b869","","","Green","")
+call s:X("StringDelimiter","89b869","","","DarkGreen","")
 
-call s:X("Identifier","c6b6ee","","","LightCyan","")
+call s:X("Identifier","98c379","","","LightCyan","")
 call s:X("Structure","8fbfdc","","","LightCyan","")
-call s:X("Function","fad07a","","","Yellow","")
+call s:X("Function","549fe9","","","LightBlue","")
 call s:X("Statement","b27ecd","","","Violet","")
-call s:X("PreProc","8fbfdc","","","LightBlue","")
-call s:X("Boolean", "d49a67", "", "", "", "")
-call s:X("Keyword", "b27ecd", "", "", "", "")
+call s:X("PreProc","549fe9","","","LightBlue","")
+call s:X("Boolean", "549fe9", "", "", "", "")
+call s:X("Keyword", "b760d3", "", "", "", "")
 
 hi! link Operator Structure
 
